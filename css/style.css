@@ -1,0 +1,116 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
+
+.single-item {
+	border: 1px solid gray;
+}
+.slider-area {
+	padding: 80px 0;
+}
+.slider-heading h2 {
+	font-weight: 700;
+	position:relative;
+}
+.slider-heading h2::before {
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 4px;
+	background: #14ADF3;
+	bottom: -77%;
+	left: 46%;
+	border-radius: 10px;
+}
+.slider-heading h2::after {
+	position: absolute;
+	content: '';
+	width: 35px;
+	height: 4px;
+	background: #7b3939;
+	bottom: -77%;
+	left: 50%;
+	border-right: 10px solid #fff;
+	border-left: 10px solid #fff;
+	border-radius: 0px;
+}
+.slider-heading {
+	padding-bottom: 10%;
+}
+.fas.fa-quote-right {
+	float: left;
+	padding: 48px 35px;
+	color: green;
+	font-weight: 700;
+}
+.single-item h2 {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: -5%;
+}
+.single-item h2 span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.single-item p {
+	font-size: 14px;
+	padding: 10px;
+	position:relative;
+}
+.single-item p::before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 84px;
+	background: #928c8c;
+	left: 67px;
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 20px;
+	height: 4px;
+	margin: 5px 7px;
+	background: #6AAF08;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 10px;
+}
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
